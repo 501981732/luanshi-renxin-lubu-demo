@@ -1,6 +1,6 @@
-import type { EventChoice } from "@/core/types/event";
-import { Badge } from "@/components/ui/badge";
-import { cn } from "@/lib/utils";
+import type { EventChoice } from "../../core/types/event";
+import { Badge } from "../ui/badge";
+import { cn } from "../../lib/utils";
 
 const tagLabels: Record<string, string> = {
   military: "军事",

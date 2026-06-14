@@ -1,5 +1,5 @@
-import { MetricCard } from "@/components/game/MetricCard";
-import type { WorldState } from "@/core/types/world";
+import { MetricCard } from "../game/MetricCard";
+import type { WorldState } from "../../core/types/world";
 
 export function DashboardPanel({ world }: { world: WorldState }) {
   const m = world.metrics;

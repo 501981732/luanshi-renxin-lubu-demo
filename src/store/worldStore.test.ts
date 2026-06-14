@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from "vitest";
-import { storyEvents } from "@/core/data/events";
+import { storyEvents } from "../core/data/events";
 import { useWorldStore } from "./worldStore";
 
 describe("worldStore", () => {

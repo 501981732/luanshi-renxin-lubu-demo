@@ -1,8 +1,8 @@
 import { RotateCcw } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { getEnding } from "@/core/engine/endingEngine";
-import type { WorldState } from "@/core/types/world";
+import { Button } from "../ui/button";
+import { Card, CardContent } from "../ui/card";
+import { getEnding } from "../../core/engine/endingEngine";
+import type { WorldState } from "../../core/types/world";
 
 export function EndingPanel({ world, onReset }: { world: WorldState; onReset: () => void }) {
   if (!world.ending) return null;

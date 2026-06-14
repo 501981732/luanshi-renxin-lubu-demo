@@ -1,13 +1,13 @@
 import { create } from "zustand";
-import { initialWorld } from "@/core/data/initialWorld";
-import { storyEvents } from "@/core/data/events";
-import { applyEffects } from "@/core/engine/effectEngine";
-import { checkEarlyEnding, checkFinalEnding } from "@/core/engine/endingEngine";
-import { pickNextEvent } from "@/core/engine/directorEngine";
-import { recalculateLuBuRisk } from "@/core/engine/riskEngine";
-import { runNpcDecisions } from "@/core/engine/npcEngine";
-import { generateTurnReport } from "@/core/engine/reportEngine";
-import type { WorldState } from "@/core/types/world";
+import { initialWorld } from "../core/data/initialWorld";
+import { storyEvents } from "../core/data/events";
+import { applyEffects } from "../core/engine/effectEngine";
+import { checkEarlyEnding, checkFinalEnding } from "../core/engine/endingEngine";
+import { pickNextEvent } from "../core/engine/directorEngine";
+import { recalculateLuBuRisk } from "../core/engine/riskEngine";
+import { runNpcDecisions } from "../core/engine/npcEngine";
+import { generateTurnReport } from "../core/engine/reportEngine";
+import type { WorldState } from "../core/types/world";
 
 type WorldStore = {
   world: WorldState;

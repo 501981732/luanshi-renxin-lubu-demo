@@ -1,11 +1,11 @@
-import { DashboardPanel } from "@/components/panels/DashboardPanel";
-import { CharacterPanel } from "@/components/panels/CharacterPanel";
-import { EventPanel } from "@/components/panels/EventPanel";
-import { ChroniclePanel } from "@/components/panels/ChroniclePanel";
-import { EndingPanel } from "@/components/panels/EndingPanel";
-import { DebugPanel } from "@/components/panels/DebugPanel";
+import { DashboardPanel } from "../panels/DashboardPanel";
+import { CharacterPanel } from "../panels/CharacterPanel";
+import { EventPanel } from "../panels/EventPanel";
+import { ChroniclePanel } from "../panels/ChroniclePanel";
+import { EndingPanel } from "../panels/EndingPanel";
+import { DebugPanel } from "../panels/DebugPanel";
 import { HeaderBar } from "./HeaderBar";
-import { useWorldStore } from "@/store/worldStore";
+import { useWorldStore } from "../../store/worldStore";
 
 export function AppShell() {
   const world = useWorldStore((state) => state.world);

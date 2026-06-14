@@ -1,5 +1,5 @@
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
-import type { WorldState } from "@/core/types/world";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "../ui/collapsible";
+import type { WorldState } from "../../core/types/world";
 
 export function DebugPanel({ world }: { world: WorldState }) {
   return (

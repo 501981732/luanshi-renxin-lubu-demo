@@ -1,7 +1,7 @@
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { DecisionButton } from "@/components/game/DecisionButton";
-import { storyEvents } from "@/core/data/events";
-import type { WorldState } from "@/core/types/world";
+import { Alert, AlertDescription, AlertTitle } from "../ui/alert";
+import { DecisionButton } from "../game/DecisionButton";
+import { storyEvents } from "../../core/data/events";
+import type { WorldState } from "../../core/types/world";
 
 export function EventPanel({
   world,

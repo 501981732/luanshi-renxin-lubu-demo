@@ -1,6 +1,6 @@
-import { CharacterCard } from "@/components/game/CharacterCard";
-import type { WorldState } from "@/core/types/world";
-import { getRiskLabel } from "@/core/engine/riskEngine";
+import { CharacterCard } from "../game/CharacterCard";
+import type { WorldState } from "../../core/types/world";
+import { getRiskLabel } from "../../core/engine/riskEngine";
 
 function riskTone(value: number) {
   if (value >= 75) return "danger" as const;
